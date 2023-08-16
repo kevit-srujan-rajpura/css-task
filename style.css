@@ -37,7 +37,7 @@
     color: #971700;
 }
 
-#h-1 {
+#post-heading{
     margin-top: 0;
     color: #000000;
 }
@@ -48,7 +48,7 @@ p {
     padding: 5px;
 }
 
-.foot {
+.footer{
     display: flex;
     text-align: center;
     height: 8vh;
@@ -56,16 +56,16 @@ p {
     background-color: rgb(204, 47, 8);
 }
 
-.d1 {
+.foot-1{
     border-right: 1px solid rgba(0, 0, 0, 0.3);
     width: 33%;
 }
 
-.d2 {
+.foot-2{
     width: 33%;
 }
 
-.d3 {
+.foot-3{
     border-left: 1px solid rgba(0, 0, 0, 0.3);
     width: 33%;
 }
