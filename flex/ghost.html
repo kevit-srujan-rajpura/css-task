@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghost</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="ghost.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!-- Using Flexbox-->
+
+
+<body>
+    <div class="main__container">
+        <header class="main__header">
+            <nav>
+                <ul class="nav--left">
+                    <li><a href="https://demo.ghost.io/">Home</a></li>
+                    <li><a href="https://demo.ghost.io/about/">About</a></li>
+                    <li> <a href="https://demo.ghost.io/tag/getting-started/">Collection</a></li>
+                    <li><a href="https://demo.ghost.io/author/ghost/">Author</a></li>
+                    <li><a href="https://demo.ghost.io/portal/">Portal</a></li>
+                </ul>
+                <ul class="nav--right">
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                        </svg>
+                    </li>
+                    <li> <a href="https://demo.ghost.io/#/portal/signin">Sign in</a></li>
+                    <li> <a class="subscribe" href="https://demo.ghost.io/#/portal/signup">Subscribe</a></li>
+                </ul>
+            </nav>
+            <div class="icon--search">
+                <div class="search">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                </div>
+                <div class="drop--down">
+                    <div class="dropdown--line"></div>
+                    <div class="dropdown--line"></div>
+                </div>
+            </div>
+            <div class="header--title">
+                <h1 class="header--title-name">Ghost</h1>
+                <p class="header--title-motto">The professional publishing platform</p>
+            </div>
+        </header>
+
+        <!-- main content -->
+        <main>
+            <div class="main__content">
+                <!-- article 1 -->
+                <article class="item1 column1-item ">
+                    <a href="https://demo.ghost.io/welcome/">
+                        <img src="welcome-to-ghost.png" class="item1--img  column--img">
+                    </a>
+                    <div class="item1--container column--div">
+                        <a href="https://demo.ghost.io/welcome/">
+                            <header class="item1--header">
+                                <span>Getting Started</span>
+                                <h2>
+                                    Start here for a quick overview of everything
+                                    you need to know
+                                </h2>
+                            </header>
+                            <main class="item1--main">
+                                We've crammed the most important information to help
+                                you get started with Ghost into this one post. It's
+                                your cheat-sheet to get started, and your...
+                            </main>
+                            <footer>
+                                <time> Mar 18, 2021 </time>
+                                <span>
+                                    . 2 min read</span>
+                            </footer>
+                        </a>
+                    </div>
+                </article>
+
+                <!--line 2-->
+                <div class="line2 common--line">
+
+                    <!-- article 2 -->
+                    <article class="item2 column--item">
+                        <a href="https://demo.ghost.io/design/">
+                            <img src="pink.png" class="item2--img column--img">
+                        </a>
+                        <div class="item2--container column--div">
+                            <a href="https://demo.ghost.io/design/">
+                                <header class="line2--header">
+                                    <div class="item--header">
+                                        <span>Getting Started <a href="https://demo.ghost.io/design/"
+                                                class="featured"><svg width="16" height="17" viewBox="0 0 16 17"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M4.49365 4.58752C3.53115 6.03752 2.74365 7.70002 2.74365 9.25002C2.74365 10.6424 3.29678 11.9778 4.28134 12.9623C5.26591 13.9469 6.60127 14.5 7.99365 14.5C9.38604 14.5 10.7214 13.9469 11.706 12.9623C12.6905 11.9778 13.2437 10.6424 13.2437 9.25002C13.2437 6.00002 10.9937 3.50002 9.16865 1.68127L6.99365 6.25002L4.49365 4.58752Z"
+                                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round"></path>
+                                                </svg>
+                                                <h3>Featured</h3>
+                                            </a></span>
+                                    </div>
+                                    <h2>
+                                        Customizing your brand and design settings
+                                    </h2>
+                                </header>
+                                <main class="item--main">
+                                    How to tweak a few settings in Ghost to
+                                    transform
+                                    your site from a generic template to a custom
+                                    brand
+                                    with style and personality.
+                                </main>
+                                <footer class="item--footer">
+                                    <time> Mar 18, 2021 </time>
+                                    <span>
+                                        .3 min read</span>
+                                </footer>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- article 3 -->
+
+                    <article class="item3 column--item">
+                        <a href="https://demo.ghost.io/design/">
+                            <img src="post.png" class="item3--img column--img">
+                        </a>
+                        <div class="item3--container column--div">
+                            <a href="https://demo.ghost.io/design/">
+                                <header class="line2--header">
+                                    <div class="item--header">
+                                        <span>Getting Started</span>
+                                    </div>
+                                    <h2>
+                                        Writing and managing content in Ghost, an
+                                        advanced guide
+                                    </h2>
+                                </header>
+                                <main class="item--main">
+                                    A full overview of all the features built into
+                                    the Ghost editor, including powerful workflow
+                                    automations to speed up your creative process.
+                                </main>
+                                <footer class="item--footer">
+                                    <time> Mar 18, 2021 </time>
+                                    <span>
+                                        . 5 min read</span>
+                                </footer>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+                <!--line 3-->
+                <div class="line3 common--line">
+
+                    <!-- article 4 -->
+                    <article class="item4 column--item">
+                        <a href="https://demo.ghost.io/portal/">
+                            <img src="window1.png" class="item4--img column--img">
+                        </a>
+                        <div class="item4--container column--div">
+                            <a href="https://demo.ghost.io/portal/">
+                                <header class="line3--header">
+                                    <div class="item--header">
+                                        <span>Getting Started</span>
+                                    </div>
+                                    <h2>
+                                        Building your audience with subscriber
+                                        signups
+                                    </h2>
+                                </header>
+                                <main class="item--main">
+                                    How Ghost allows you to turn anonymous readers
+                                    into an audience of active subscribers, so you
+                                    kno...
+                                </main>
+                                <footer class="item--footer">
+                                    <time> Mar 18, 2021 </time>
+                                    <span>
+                                        . 2 min read</span>
+                                </footer>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- article 5 -->
+
+                    <article class="item5 column--item">
+                        <a href="https://demo.ghost.io/sell/">
+                            <div class="item5--img--container column--img">
+                                <div class="item5-img column--img">
+                                    <img src="window2.png" class="item5--img1 column--img">
+                                </div>
+                                <div class="item5-icon column5-div">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.25 6.875H3.75C3.40482 6.875 3.125 7.15482 3.125 7.5V16.25C3.125 16.5952 3.40482 16.875 3.75 16.875H16.25C16.5952 16.875 16.875 16.5952 16.875 16.25V7.5C16.875 7.15482 16.5952 6.875 16.25 6.875Z"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path
+                                            d="M7.1875 6.875V4.0625C7.1875 3.31658 7.48382 2.60121 8.01126 2.07376C8.53871 1.54632 9.25408 1.25 10 1.25C10.7459 1.25 11.4613 1.54632 11.9887 2.07376C12.5162 2.60121 12.8125 3.31658 12.8125 4.0625V6.875"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path
+                                            d="M10 13.125C10.6904 13.125 11.25 12.5654 11.25 11.875C11.25 11.1846 10.6904 10.625 10 10.625C9.30964 10.625 8.75 11.1846 8.75 11.875C8.75 12.5654 9.30964 13.125 10 13.125Z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                    <h3>Paid-memebers only</h3>
+                                </div>
+                        </a>
+                </div>
+                <div class="item5--container column--div">
+                    <a href="https://demo.ghost.io/sell/">
+                        <header class="line3--header">
+                            <div class="item--header">
+                                <span>Getting Started</span>
+                            </div>
+                            <h2>
+                                Selling premium memberships with recurring
+                                revenue
+                            </h2>
+                        </header>
+                        <main class="item--main">
+                            For creators and aspiring entrepreneurs looking
+                            to generate a sustainable recurring revenue
+                            stream...
+                        </main>
+                        <footer class="item--footer">
+                            <time> Mar 18, 2021 </time>
+                            <span>
+                                . 1 min read</span>
+                        </footer>
+                    </a>
+                </div>
+                </article>
+
+                <!-- article 6 -->
+
+                <article class="item6 column--item">
+                    <a href="https://demo.ghost.io/grow/">
+                        <img src="window3.png" class="item6--img column--img">
+                    </a>
+                    <div class="item6--container column--div">
+                        <a href="https://demo.ghost.io/grow/">
+                            <header class="line3--header">
+                                <div class="item--header">
+                                    <span>Getting Started</span>
+                                </div>
+                                <h2>
+                                    How to grow your business around an audience
+                                </h2>
+                            </header>
+                            <main class="item--main">
+                                A guide to collaborating with other staff users
+                                to publish, and some resources to help you with
+                                the...
+                            </main>
+                            <footer class="item--footer">
+                                <time> Mar 18, 2021 </time>
+                                <span>
+                                    . 2 min read</span>
+                            </footer>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+            <!--line 4-->
+            <div class="line4 common--line">
+
+                <!-- article 7 -->
+                <article class="item7 column--item">
+                    <a href="https://demo.ghost.io/integrations/" class="column--img">
+                        <img src="window4.png" class="item7--img column--img">
+                    </a>
+                    <div class="item7--container column--div">
+                        <a href="https://demo.ghost.io/integrations/">
+                            <header class="line4--header">
+                                <div class="item--header">
+                                    <span>Getting Started</span>
+                                </div>
+                                <h2>
+                                    Setting up apps and custom integrations
+                                </h2>
+                            </header>
+                            <main class="item--main">
+                                Work with all your favorite apps and tools or
+                                create your own custom integrations using the
+                                Ghost API.
+                            </main>
+                            <footer class="item--footer">
+                                <time> Mar 18, 2021 </time>
+                                <span>
+                                    . 1 min read</span>
+                            </footer>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- article 8 -->
+
+                <article class="item8 column--item">
+                    <a href="https://demo.ghost.io/the-businessman-the-fisherman/">
+                        <img src="window5.jpg" class="item8--img c--8 column--img column8-img-h">
+                    </a>
+                    <div class="item8--container column--div">
+                        <a href="https://demo.ghost.io/the-businessman-the-fisherman/">
+                            <header class="line4--header">
+                                <div class="item--header">
+                                    <span>Fables</span>
+                                </div>
+                                <h2>
+                                    The Businessman & The Fisherman
+
+                                </h2>
+                            </header>
+                            <main class="item--main">
+                                An American businessman took a vacation to a
+                                small coastal Mexican village on doctor’s
+                                orders...
+                            </main>
+                            <footer class="item--footer">
+                                <time> Aug 12, 2014</time>
+                                <span>
+                                    . 2 min read</span>
+                            </footer>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- article 9 -->
+
+                <article class="item9 column--item">
+                    <a href="https://demo.ghost.io/style-test/">
+                        <img src="window6.jpg" class="item9--img column--img column-img-h">
+                    </a>
+                    <div class="item9--container column--div">
+                        <a href="https://demo.ghost.io/style-test/">
+                            <header class="line4--header">
+                                <span class="item--header"></span>
+                                <h2>
+                                    A Full and Comprehensive Style Test
+                                </h2>
+                            </header>
+                            <main class="item--main">
+                                Below is just about everything you’ll need to
+                                style in the theme. Check the source code to see
+                                the...
+                            </main>
+                            <footer class="item--footer">
+                                <time> Sep 1, 2012 </time>
+                                <span>
+                                    . 5 min read</span>
+                            </footer>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+            <!--line 5-->
+            <div class="line5 common--line">
+
+                <!-- article 10 -->
+                <article class="item10 column--item">
+                    <a href="https://demo.ghost.io/i-have-a-dream/">
+                        <img src="window7.jpg" class="item10--img column--img">
+                    </a>
+                    <div class="item10--container column--div">
+                        <a href="https://demo.ghost.io/i-have-a-dream/">
+                            <header class="line5--header">
+                                <div class="item--header">
+                                    <span>Speeches</span>
+                                </div>
+                                <h2>
+                                    I Have a Dream
+                                </h2>
+                            </header>
+                            <main class="item--main">
+                                I am happy to join with you today in what will
+                                go down in history as the greatest demonstration
+                                fo...
+                            </main>
+                            <footer class="item--footer">
+                                <time>Aug 28, 1963 </time>
+                                <span>
+                                    . 6 min read</span>
+                            </footer>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- article 11 -->
+
+                <article class="item11 column--item">
+                    <a href="https://demo.ghost.io/the-purpose-of-education/">
+                        <img src="window8.jpg" class="item11--img column--img column8-img-h">
+                    </a>
+                    <div class="item11--container column--div">
+                        <a href="https://demo.ghost.io/the-purpose-of-education/">
+                            <header class="line5--header">
+                                <div class="item--header">
+                                    <span>Speeches<a href="https://demo.ghost.io/design/" class="featured"><svg
+                                                width="16" height="17" viewBox="0 0 16 17" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M4.49365 4.58752C3.53115 6.03752 2.74365 7.70002 2.74365 9.25002C2.74365 10.6424 3.29678 11.9778 4.28134 12.9623C5.26591 13.9469 6.60127 14.5 7.99365 14.5C9.38604 14.5 10.7214 13.9469 11.706 12.9623C12.6905 11.9778 13.2437 10.6424 13.2437 9.25002C13.2437 6.00002 10.9937 3.50002 9.16865 1.68127L6.99365 6.25002L4.49365 4.58752Z"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round"></path>
+                                            </svg>
+                                            <h3> Featured </h3>
+                                        </a> </span>
+                                </div>
+                                <h2>
+                                    The Purpose of Education
+                                </h2>
+                            </header>
+                            <main class="item--main">
+                                As I engage in the so-called "bull sessions"
+                                around and about the school, I too often find
+                                that most...
+                            </main>
+                            <footer class="item--footer">
+                                <time> Dec 12, 1948</time>
+                                <span>
+                                    . 2 min read</span>
+                            </footer>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- article 12 -->
+
+                <article class="item12 column--item">
+                    <a href="https://demo.ghost.io/out-to-sea/">
+                        <img src="wiindow9.jpg" class="item12--img c--12 column--img column-img-h">
+                    </a>
+                    <div class="item12--container column--div">
+                        <a href="https://demo.ghost.io/out-to-sea/">
+                            <header class="line5--header">
+                                <div class="item--header">
+                                    <span>Fiction</span>
+                                </div>
+                                <h2>
+                                    Out to Sea
+                                </h2>
+                            </header>
+                            <main class="item--main">
+                                I had this story from one who had no business to
+                                tell it to me, or to any other. I may credit
+                                the...
+                            </main>
+                            <footer class="item--footer">
+                                <time> Jul 24, 1912</time>
+                                <span>
+                                    . 6 min read</span>
+                            </footer>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <!--line 6-->
+            <div class="line6 common--line">
+
+                <!-- article 13 -->
+                <article class="item13 column--item">
+                    <a href="https://demo.ghost.io/looking-glass-house/">
+                        <img src="window10.jpg" class="item13--img column--img">
+                    </a>
+                    <div class="item13--container column--div">
+                        <a href="https://demo.ghost.io/looking-glass-house/">item5-
+                            <header class="line6--header">
+                                <div class="item--header">
+                                    <span>Fiction</span>
+                                </div>
+                                <h2>
+                                    Looking-Glass house
+                                </h2>
+                            </header>
+                            <main class="item--main">
+                                One thing was certain, that the white kitten had
+                                had nothing to do with it:— it was the black
+                                kitte...
+                            </main>
+                            <footer class="item--footer">
+                                <time>Mar 18, 1871</time>
+                                <span>
+                                    . 10 min read</span>
+                            </footer>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- article 14 -->
+
+                <article class="item14 column--item">
+                    <a href="https://demo.ghost.io/down-the-rabbit-hole/">
+                        <img src="window11.jpg" class="item14--img column--img column8-img-h">
+                    </a>
+                    <div class="item14--container column--div">
+                        <a href="https://demo.ghost.io/down-the-rabbit-hole/">
+                            <header class="line6--header">
+                                <div class="item--header">
+                                    <span>Fiction</span>
+                                </div>
+                                <h2>
+                                    Down The Rabbit Hole
+                                </h2>
+                            </header>
+                            <main class="item--main">
+                                Alice was beginning to get very tired of sitting
+                                by her sister on the bank, and of having nothing
+                                to d...
+                            </main>
+                            <footer class="item--footer">
+                                <time> Nov 26, 1865</time>
+                                <span>
+                                    . 8 min read</span>
+                            </footer>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- article 15 -->
+
+                <article class="item15 column--item">
+                    <a href="https://demo.ghost.io/gettysburg-address/">
+                        <img src="window12.jpg" class="item15--img column--img c12 column-img-h">
+                    </a>
+                    <div class="item15--container column--div">
+                        <a href="https://demo.ghost.io/gettysburg-address/">
+                            <header class="line6--header">
+                                <div>
+                                    <span> <a href="https://demo.ghost.io/design/" class="featured"
+                                            id="featured-item15"><svg width="16" height="17" viewBox="0 0 16 17"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M4.49365 4.58752C3.53115 6.03752 2.74365 7.70002 2.74365 9.25002C2.74365 10.6424 3.29678 11.9778 4.28134 12.9623C5.26591 13.9469 6.60127 14.5 7.99365 14.5C9.38604 14.5 10.7214 13.9469 11.706 12.9623C12.6905 11.9778 13.2437 10.6424 13.2437 9.25002C13.2437 6.00002 10.9937 3.50002 9.16865 1.68127L6.99365 6.25002L4.49365 4.58752Z"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round"></path>
+                                            </svg>
+                                            <h3> Featured </h3>
+                                        </a></span>
+                                </div>
+                                <h2>
+                                    Gettysburg Address
+                                </h2>
+                            </header>
+                            <main class="item--main">
+                                Fourscore and seven years ago our fathers
+                                brought forth on this continent, a new nation,
+                                conceived i...
+                            </main>
+                            <footer class="item--footer">
+                                <time> Nov 19, 1863</time>
+                                <span>
+                                    . 1 min read</span>
+                            </footer>
+                        </a>
+                    </div>
+                </article>
+            </div>
+    </div>
+    </main>
+
+    <!-- footer starts here -->
+
+    <footer class="footer__main">
+        <div class="footer1">
+            <a href="https://demo.ghost.io/">Ghost</a>© 2023
+
+        </div>
+        <div class="footer2">
+            <ul>
+                <li><a href="https://demo.ghost.io/privacy/">Data & privacy
+                    </a></li>
+                <li><a href="https://demo.ghost.io/contact/">Contact</a></li>
+                <li><a href="https://demo.ghost.io/contribute/">Contribute →</a></li>
+            </ul>
+        </div>
+        <div class="footer3">
+            <a href="https://ghost.org/">
+                Powered by Ghost</a>
+        </div>
+    </footer>
+    <div class="subscribe--btn">
+        <a href="https://demo.ghost.io/#/portal/signup"><span> <svg width="26" height="26" viewBox="0 0 26 26"
+                    fill="none" xmlns="http://www.w3.org/2000/svg"
+                    style="width: 24px; height: 24px; color: rgb(255, 255, 255);">
+                    <path
+                        d="M8.924 24.29c1.273.46 2.645.71 4.076.71 5.52 0 10.17-3.727 11.57-8.803M6.712 2.777C3.285 4.89 1 8.678 1 13c0 3.545 1.537 6.731 3.982 8.928M24.849 11.089C23.933 5.369 18.977 1 13 1c-.69 0-1.367.058-2.025.17"
+                        stroke="#fff" stroke-width="1.5" stroke-linecap="round"></path>
+                    <path
+                        d="M17.903 12.016c-.332-1.665-1.491-3.032-3.031-3.654M11.037 8.4C9.252 9.163 8 10.935 8 13c0 .432.055.85.158 1.25M10.44 17.296c.748.447 1.624.704 2.56.704 1.71 0 3.22-.858 4.12-2.167M15.171 21.22c3.643-.96 6.329-4.276 6.329-8.22 0-1.084-.203-2.121-.573-3.075M18.611 6.615C17.114 5.3 15.151 4.5 13 4.5c-2.149 0-4.112.797-5.608 2.113M5.112 9.826c-.395.98-.612 2.052-.612 3.174 0 4.015 2.783 7.38 6.526 8.27"
+                        stroke="#fff" stroke-width="1.5" stroke-linecap="round"></path>
+                </svg> </span><span id="sub--btn">Subscribe</span></a>
+    </div>
+    </div>
+</body>
+
+</html>
